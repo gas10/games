@@ -16,6 +16,7 @@
 		62855C6824DFCBCF007CEA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62855C6624DFCBCF007CEA1F /* LaunchScreen.storyboard */; };
 		62855C7324DFCBCF007CEA1F /* CatanGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62855C7224DFCBCF007CEA1F /* CatanGameTests.swift */; };
 		62855C7E24DFCBCF007CEA1F /* CatanGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62855C7D24DFCBCF007CEA1F /* CatanGameUITests.swift */; };
+		62855C8C24DFD5BB007CEA1F /* LoginContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62855C8B24DFD5BB007CEA1F /* LoginContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		62855C7924DFCBCF007CEA1F /* CatanGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatanGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62855C7D24DFCBCF007CEA1F /* CatanGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatanGameUITests.swift; sourceTree = "<group>"; };
 		62855C7F24DFCBCF007CEA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62855C8B24DFD5BB007CEA1F /* LoginContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				62855C6924DFCBCF007CEA1F /* Info.plist */,
 				62855C5C24DFCBCD007CEA1F /* CatanGame.xcdatamodeld */,
 				62855C6324DFCBCF007CEA1F /* Preview Content */,
+				62855C8B24DFD5BB007CEA1F /* LoginContent.swift */,
 			);
 			path = CatanGame;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62855C5E24DFCBCD007CEA1F /* CatanGame.xcdatamodeld in Sources */,
+				62855C8C24DFD5BB007CEA1F /* LoginContent.swift in Sources */,
 				62855C5924DFCBCD007CEA1F /* AppDelegate.swift in Sources */,
 				62855C6024DFCBCD007CEA1F /* ContentView.swift in Sources */,
 				62855C5B24DFCBCD007CEA1F /* SceneDelegate.swift in Sources */,
@@ -440,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CatanGame/Preview Content\"";
-				DEVELOPMENT_TEAM = BRS53SV7R8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CatanGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"CatanGame/Preview Content\"";
-				DEVELOPMENT_TEAM = BRS53SV7R8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CatanGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
